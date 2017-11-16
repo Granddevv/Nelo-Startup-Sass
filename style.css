@@ -1,0 +1,78 @@
+/*import other Sass file*/
+.base, .newbox1, .newbox2 {
+  color: red; }
+
+/*valuable*/
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+/*nesting*/
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+/*Mixins*/
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.box1 {
+  background: red;
+  border-radius: 10px;
+  border: 1px solid;
+  width: 200px;
+  height: 200px; }
+
+.box2 {
+  background: red;
+  border-radius: 10px;
+  border: 1px solid;
+  width: 200px;
+  height: 100px; }
+
+.box3 {
+  background: red;
+  border-radius: 10px;
+  border: 1px solid;
+  width: 200px;
+  height: 300px; }
+
+.box4 {
+  background: red;
+  border-radius: 10px;
+  border: 1px solid;
+  width: 200px;
+  height: 400px; }
+
+/*Extend/Inheritance*/
+.base, .newbox1, .newbox2 {
+  width: 100px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: yellow; }
+
+.newbox1 {
+  border-color: red; }
+
+.newbox2 {
+  border-color: blue; }
+
+/*Operator*/
+.box1 {
+  width: 46px; }
+
+.box2 {
+  width: 102px; }
+
+/*# sourceMappingURL=style.css.map */
